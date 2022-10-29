@@ -33,6 +33,8 @@ cd csv-import
 
 # Docker için
 docker compose up
+
+# PhpMyAdmin'in kendine gelmesi 2-3 dk sürebilir
 ```
 
 http://localhost:8080 adresine gidip import_db adında bir veritabanı oluşturun. Daha sonra import_db.sql dosyasını import edin.
