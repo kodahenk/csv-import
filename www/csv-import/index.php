@@ -129,7 +129,7 @@
                         }
 
                         // show success messages
-                        if (data.message.length > 0) {
+                        if (Object.keys(data.csvLineError).length > 0) {
                             $('#info').show('slide');
                             $('#info ul').html('');
 

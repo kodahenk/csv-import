@@ -88,6 +88,12 @@ while (!feof($myfile)) {
     $lineString = fgets($myfile);
     $line = explode(';', $lineString);
 
+    // satır başlıklarını alıyor
+    if ($i == 0) {
+        $i++;
+        continue;
+    }
+
     if (count($line) != 6) {
         array_push($lineError, 'row format wrong');
     } else {
