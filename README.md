@@ -34,3 +34,5 @@ docker compose up
 ```
 
 http://localhost:8080 adresine gidip import_db adında bir veritabanı oluşturun. Daha sonra import_db.sql dosyasını import edin.
+
+> Proje'nin PHP dosyaları /www/csv-import/ klasörünün altında
