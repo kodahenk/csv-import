@@ -3,12 +3,8 @@
 include 'config.php';
 
 include 'classes/Validation.php';
-include 'classes/FileUpload.php';
-include 'classes/CsvImport.php';
 
 $validation = new Validation();
-$fileUpload = new FileUpload();
-$csvImport = new CsvImport();
 
 $ajaxResult = [
     'errors' => [],
