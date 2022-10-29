@@ -21,6 +21,16 @@ Site adresi: http://csv-import.test
 
 
 ### Kurulumu
+Yukarıdaki ayarlamaları (docker kurulumu, portların müsaitliği ve hosts dosyasına ekleme) yaptıktan sonra:
 ```
+# Projeyi indirmek için
+git clone https://github.com/kodahenk/csv-import.git
 
+# indirilen projenin içine giriyoruz
+cd csv-import
+
+# Docker için
+docker compose up
+
+## http://csv-import.test
 ```
