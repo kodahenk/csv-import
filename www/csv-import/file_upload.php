@@ -97,12 +97,13 @@ while (!feof($myfile)) {
             $stmt = $pdo->prepare($sql);
 
             try {
-                $pdoResult = $stmt->execute($line);
+                $pdoResult = $stmt->execute($validation->line);
             } catch (PDOException $e) {
                 if ($e->errorInfo[1] == 1062) {
                     array_push($lineError, "line has duplicate key");
                 } else {
-                    array_push($lineError, "database error");
+                    array_push($lineError, "insert error");
+                    // var_dump($e->getMessage());
                 }
             }
         } else {

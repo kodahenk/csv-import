@@ -4,6 +4,7 @@ class Validation
 {
     protected $error = false;
     public $errors = [];
+    public $line = [];
 
     public function nameValidate()
     {
@@ -139,6 +140,15 @@ class Validation
         if ($this->error == true)
             return false;
 
+        $this->line = [
+            $this->name,
+            $this->surname,
+            $this->email,
+            $this->employee_id,
+            $this->phone,
+            $this->points,
+        ];
+        
         return true;
     }
 }
