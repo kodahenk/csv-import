@@ -7,6 +7,8 @@
 
 ## Csv Import - csv-import.test
 
+Projenin çalışan versiyonu http://csv-import.kodahenk.com adresinde mevcut
+
 Bilgisayarınızda projenin .test uzantılı adresini çalıştırmak için **hosts** dosyasına site adını eklemeniz gerekiyor.
 - Windows için **C:\Windows\System32\drivers\etc**
 - Mac için **/etc/hosts**
