@@ -29,9 +29,6 @@ git clone https://github.com/kodahenk/csv-import.git
 # indirilen projenin içine giriyoruz
 cd csv-import
 
-# .env için ayarlar
-cp sample.env .env
-
 # Docker için
 docker compose up
 ```
