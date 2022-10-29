@@ -34,6 +34,6 @@ cp sample.env .env
 
 # Docker için
 docker compose up
-
-## http://csv-import.test
 ```
+
+http://localhost:8080 adresine gidip import_db adında bir veritabanı oluşturun. Daha sonra import_db.sql dosyasını import edin.
