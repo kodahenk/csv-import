@@ -4,6 +4,7 @@
 
 - Bilgisayarda Docker Kurulu olmalı.
 - Docker'ın MySQL(3306) ve Apache(80) için kullanacağı portları müsait olmalı.
+- Kurulumuyla ilgili video https://youtu.be/KebgcXm5IIk
 
 ## Csv Import - csv-import.test
 
