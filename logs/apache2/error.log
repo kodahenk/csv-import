@@ -1,0 +1,29 @@
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.4. Set the 'ServerName' directive globally to suppress this message
+[Wed Oct 26 08:05:19.729703 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.0.19 OpenSSL/1.1.1n configured -- resuming normal operations
+[Wed Oct 26 08:05:19.731696 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Oct 26 08:07:03.849523 2022] [autoindex:error] [pid 17] [client 172.18.0.1:58250] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Oct 26 08:13:58.542125 2022] [autoindex:error] [pid 19] [client 172.18.0.1:58724] AH01276: Cannot serve directory /var/www/html/example-app/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Oct 26 08:14:43.136248 2022] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.5. Set the 'ServerName' directive globally to suppress this message
+[Wed Oct 26 08:18:27.145547 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.1.11 OpenSSL/1.1.1n configured -- resuming normal operations
+[Wed Oct 26 08:18:27.147557 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Oct 26 08:18:39.458311 2022] [autoindex:error] [pid 16] [client 172.19.0.1:55676] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Oct 26 08:22:12.086082 2022] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.5. Set the 'ServerName' directive globally to suppress this message
+[Wed Oct 26 08:22:18.053525 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.1.11 OpenSSL/1.1.1n configured -- resuming normal operations
+[Wed Oct 26 08:22:18.054481 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.5. Set the 'ServerName' directive globally to suppress this message
+[Thu Oct 27 05:44:48.372969 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.1.11 OpenSSL/1.1.1n configured -- resuming normal operations
+[Thu Oct 27 05:44:48.373959 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Oct 27 06:16:18.429033 2022] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.5. Set the 'ServerName' directive globally to suppress this message
+[Thu Oct 27 06:18:08.610822 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.1.11 OpenSSL/1.1.1n configured -- resuming normal operations
+[Thu Oct 27 06:18:08.612350 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Oct 27 06:38:51.040451 2022] [php:error] [pid 18] [client 172.21.0.1:63330] script '/var/www/html/csv-import/file_upload.php' not found or unable to stat, referer: http://csv-import.test/?
+[Thu Oct 27 07:43:29.929709 2022] [php:error] [pid 17] [client 172.21.0.1:64470] script '/var/www/html/csv-import/upload.php' not found or unable to stat, referer: http://csv-import.test/
+[Thu Oct 27 20:41:36.271781 2022] [php:error] [pid 19] [client 172.21.0.1:62366] script '/var/www/html/csv-import/test.php' not found or unable to stat
+[Fri Oct 28 02:36:03.084120 2022] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.5. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 28 02:36:07.598171 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/8.1.11 OpenSSL/1.1.1n configured -- resuming normal operations
+[Fri Oct 28 02:36:07.599112 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 29 10:18:34.286386 2022] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
