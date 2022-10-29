@@ -14,7 +14,8 @@ $ajaxResult = [
     'errors' => [],
     'message' => '',
     'status' => false,
-    'csvLineError' => []
+    'csvLineError' => [],
+    'addedLines' => []
 ];
 
 // SECTION FileUpload
@@ -104,6 +105,8 @@ while (!feof($myfile)) {
 
             try {
                 $pdoResult = $stmt->execute($validation->line);
+
+                array_push($ajaxResult['addedLines'], $validation->line);
             } catch (PDOException $e) {
                 if ($e->errorInfo[1] == 1062) {
                     array_push($lineError, "line has duplicate key");

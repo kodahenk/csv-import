@@ -62,6 +62,24 @@
                 </form>
             </div>
         </div>
+        <div class="border my-3 p-2 shadow">
+            <div class="border-bottom mb-2 pb-2"><a href="clean_db.php" class="btn btn-sm btn-danger">Drop Database</a></div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>name</th>
+                        <th>surname</th>
+                        <th>email</th>
+                        <th>employee_id</th>
+                        <th>phone</th>
+                        <th>points</th>
+                    </tr>
+                </thead>
+                <tbody id="addedLines">
+
+                </tbody>
+            </table>
+        </div>
     </div>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
@@ -136,6 +154,22 @@
                             $.each(data.csvLineError, function(index, value) {
                                 $('#info ul').append("<li>" + index + "<br><strong>" + JSON.stringify(value) + "</strong></li>");
                             });
+                        }
+
+                        if (Object.keys(data.addedLines).length > 0) {
+                            $.each(data.addedLines, function(index, value) {
+                                $('#addedLines').append(
+                                    `<tr>
+                                        <td>${value[0]}</td>
+                                        <td>${value[1]}</td>
+                                        <td>${value[2]}</td>
+                                        <td>${value[3]}</td>
+                                        <td>${value[4]}</td>
+                                        <td>${value[5]}</td>
+                                    </tr>`
+                                );
+                            });
+                            console.log('eklenecek satır var');
                         }
 
                         // form temizleme
