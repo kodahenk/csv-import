@@ -1,5 +1,10 @@
 # Projeler ile ilgili Açıklamalar
 
+- Dosya Upload işlemi yapılıyor, dosya csv değilse upload işlemi yapılmıyor
+- Formu back end tarafında kontrol ediyor, bir hata varsa bilgilendirme yapıyor
+- Form başarılı bir şelikde işlenirse satırlar kontrol ediliyor
+- İstenilen formattaki satırlar db'ye yazdırılıyo, invalidate satırlar geri bildirim olarak dönüyor
+
 ## Ön Bilgilendirme
 
 - Bilgisayarda Docker Kurulu olmalı.
